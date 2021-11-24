@@ -35,8 +35,31 @@ namespace WPF14
                 Image = "Data/Coca-cola.png",
                 Category = ProductTypes.Food
             });
+            product.Add(new Product()
+            {
+                Name = "Apple",
+                Price = 1000,
+                Image = "Data/Apple.png",
+                Category = ProductTypes.Tech
+            });
+            product.Add(new Product()
+            {
+                Name = "Lays",
+                Price = 2,
+                Image = "Data/Lays.png",
+                Category = ProductTypes.Food
+            });
+            product.Add(new Product()
+            {
+                Name = "LG",
+                Price = 500,
+                Image = "Data/LG.png",
+                Category = ProductTypes.Tech
+            });
 
             listBox.ItemsSource = product;
+            
+
         }
     }
 }
