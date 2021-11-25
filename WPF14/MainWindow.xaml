@@ -42,6 +42,6 @@
         </DataTemplate>
     </Window.Resources>
     <StackPanel>
-        <ListBox x:Name="listBox" Width="400" Margin="10" ItemTemplate="{StaticResource myTemplate}"/>
+        <ListBox x:Name="listBox" Width="220" Margin="10" ItemTemplate="{StaticResource myTemplate}"/>
     </StackPanel>
 </Window>

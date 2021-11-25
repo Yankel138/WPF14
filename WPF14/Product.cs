@@ -17,13 +17,5 @@ namespace WPF14
         public int Price { get; set; }
         public string Image { get; set; }
         public ProductTypes Category { get; set; }
-
-        //public Product(string name, int price, string image, ProductTypes category)
-        //{
-        //    Name = name;
-        //    Price = price;
-        //    Image = image;
-        //    Category = category;
-        //}
     }
 }
